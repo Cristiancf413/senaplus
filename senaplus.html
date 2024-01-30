@@ -1,0 +1,1374 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/senaplus.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>SENA+</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    
+    <div style="position: relative;">
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg senaplus-navbar sena-padding-left sena-padding-right col-lg-12 col-md-10 col-md-3 col-xs-6">
+      <div class="container-fluid">
+        <div class="sena-row">
+          <div class="left d-flex align-items-center">
+            <a class="navbar-brand" href="#">
+              <img src="img/logo.png" alt="">
+            </a>
+            <div  class="senaplus-nav">
+               <section>
+                  <button>INICIO</button>
+                  <button>MI LISTA</button>
+                  <button>ORIGINALES</button>
+                  <button>PELICULAS</button>
+                  <button>SERIES</button>
+               </section>
+            </div>
+
+          </div>
+          <div class="right d-flex align-items-center">
+            <i class="bi bi-search"></i>
+            <i class="bi bi-bell-fill"></i>
+            <section class="senaplus-profile">
+
+            </section>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /header -->
+
+
+    <!-- video -->
+      <div class="">
+         <section class="senaplus-home-video col-md-10 col-lg-12 col-xs-3">
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <video src="video/Secuencia 03.mp4" autoplay muted loop></video>
+            <div class="content">
+                <section class="left">
+                    <img src="" alt="">
+                
+                    <div class="d-flex mt-2">
+                      <button class="btn btn-light m-2" > <i class="bi bi-play-fill" style="color: black; padding: 0%;"></i> Reproducir Ahora </button>
+                      <button class="btn btn-secondary m-2"><i class="bi bi-info-circle" style=" padding: 0%;"></i> Más Info</button>
+                    </div>
+                </section>
+               
+            </div>
+          </section>
+         
+      </div>
+    <!-- video -->
+
+      <!-- sliders -->
+      <div class="slider-box">
+        <div class="container-fluid slider">
+          <section class="d-flex justify-content-between margin-right">
+            <p class="text-white"> <b>Tendencias</b> </p>
+            <div class="">
+              <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active tab-change-btn" aria-current="true" aria-label="Slide 1"></button>
+              <button class="tab-change-btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button class="tab-change-btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+          </section>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            
+            <div class="carousel-inner" style="position: relative; overflow: visible;">
+              <div class="carousel-item active">
+                <section class="d-flex" >
+                  <div class="card" >
+                    <img src="img/wonder.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                        <section class="d-flex justify-content-between">
+                          <div>
+                            <i class="bi bi-play-circle-fill card-icon"  ></i>
+                            <i  class="bi bi-plus-circle card-icon"></i>
+                          </div>
+                          <div>
+                            <i class="bi bi-arrow-down-circle card-icon"></i>
+                          </div>
+                        </section>
+                        <section class="d-flex align-items-center justify-content-between" >
+                           <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                             <span class="m-2 sena-card-text text-white">Ep Exclusivo</span> <span class="border sena-card-text p-1 text-white">4K</span>
+                          
+                          </section>
+                          <span class="sena-card-text text-white">Aventura • Naturaleza • Paz</span>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="img/Miniaturas/miniatura-choco pops.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card">
+                    <img src="img/img3.webp" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div> <div class="card-body"> 
+                        <section class="d-flex justify-content-between">
+                          <div>
+                            <i class="bi bi-play-circle-fill card-icon"  ></i>
+                            <i  class="bi bi-plus-circle card-icon"></i>
+                          </div>
+                          <div>
+                            <i class="bi bi-arrow-down-circle card-icon"></i>
+                          </div>
+                        </section>
+                        <section class="d-flex align-items-center justify-content-between" >
+                           <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                             <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                          
+                          </section>
+                          <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/ MiniaturaMontacergas.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/alejandro miniatura.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/Doc. Juguetes.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                </section>
+              </div>
+              <div class="carousel-item">
+                <section class="d-flex">
+                  <div class="card">
+                    <img src="img/Miniaturas/federal miniatura.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/miniatura felipe contreras.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card">
+                    <img src="img/Miniaturas/miniatura.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/miniatura_Angela Gaitan.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/miniaturaAdymart.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/MIniaturaComerciaJK.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                </section>
+              </div>
+              <div class="carousel-item">
+                <section class="d-flex" >
+                  <div class="card" >
+                    <img src="img/Miniaturas/miniaturaMelanycortes.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/miniaturaZharickalvarez.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/MINIAUTURA YOUTUBE.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/Screenshot_20240125-191905~2.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/thumbnail.MisTesorosAd.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/thumbnailYoutubeConceptChattyPelucass.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thrillersena
+                  </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="container-fluid  slide2">
+          <section class="d-flex justify-content-between margin-right margin-title">
+            <p class="text-white"> <b>Videos</b> </p>
+            <div class="">
+              <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active tab-change-btn" aria-current="true" aria-label="Slide 1"></button>
+              <button class="tab-change-btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button class="tab-change-btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+          </section>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            
+            <div class="carousel-inner col-md-10 col-xs-3 col-xs-6 col-lg-12" style="position: relative; overflow: visible;">
+              <div class="carousel-item active">
+                <section class="d-flex" >
+                  <div class="card" >
+                    <img src="img/Miniaturas/ MiniaturaMontacergas.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                        <section class="d-flex justify-content-between">
+                          <div>
+                            <i class="bi bi-play-circle-fill card-icon"  ></i>
+                            <i  class="bi bi-plus-circle card-icon"></i>
+                          </div>
+                          <div>
+                            <i class="bi bi-arrow-down-circle card-icon"></i>
+                          </div>
+                        </section>
+                        <section class="d-flex align-items-center justify-content-between" >
+                           <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                             <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                          
+                          </section>
+                          <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="img/wonder.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card">
+                    <img src="img/Miniaturas/ MiniaturaMontacergas.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div> <div class="card-body"> 
+                        <section class="d-flex justify-content-between">
+                          <div>
+                            <i class="bi bi-play-circle-fill card-icon"  ></i>
+                            <i  class="bi bi-plus-circle card-icon"></i>
+                          </div>
+                          <div>
+                            <i class="bi bi-arrow-down-circle card-icon"></i>
+                          </div>
+                        </section>
+                        <section class="d-flex align-items-center justify-content-between" >
+                           <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                             <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                          
+                          </section>
+                          <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/alejandro miniatura.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border netflix-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/Doc. Juguetes.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/federal miniatura.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                </section>
+              </div>
+              <div class="carousel-item">
+                <section class="d-flex ">
+                  <div class="card">
+                    <img src="img/Miniaturas/miniatura felipe contreras.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/miniatura-choco pops.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card">
+                    <img src="img/Miniaturas/miniatura.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/miniatura_Angela Gaitan.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/miniaturaAdymart.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/MIniaturaComerciaJK.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                </section>
+              </div>
+              <div class="carousel-item">
+                <section class="d-flex ">
+                  <div class="card" >
+                    <img src="img/Miniaturas/miniaturaMelanycortes.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/miniaturaZharickalvarez.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/MINIAUTURA YOUTUBE.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/Screenshot_20240125-191905~2.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/thumbnail.MisTesorosAd.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Serie Limitada</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Amor • Pasión • Drama</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/thumbnailYoutubeConceptChattyPelucass.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocativo • Ciencia • Emprendimiento</span>
+                  </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+        <div class="container-fluid  slide3">
+          <section class="d-flex justify-content-between margin-right margin-title2">
+            <p class="text-white"> <b>Tus recomendados</b> </p>
+            <div class="">
+              <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active tab-change-btn" aria-current="true" aria-label="Slide 1"></button>
+              <button class="tab-change-btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button class="tab-change-btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+          </section>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            
+            <div class="carousel-inner" style="position: relative; overflow: visible;">
+              <div class="carousel-item active">
+                <section class="d-flex " >
+                  <div class="card" >
+                    <img src="img/wonder.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                        <section class="d-flex justify-content-between">
+                          <div>
+                            <i class="bi bi-play-circle-fill card-icon"  ></i>
+                            <i  class="bi bi-plus-circle card-icon"></i>
+                          </div>
+                          <div>
+                            <i class="bi bi-arrow-down-circle card-icon"></i>
+                          </div>
+                        </section>
+                        <section class="d-flex align-items-center justify-content-between" >
+                           <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                             <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                          
+                          </section>
+                          <span class="sena-card-text text-white">Aventura • Moda • Pasión</span>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="img/Miniaturas/ MiniaturaMontacergas.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="netflix-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card">
+                    <img src="img/Miniaturas/alejandro miniatura.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div> <div class="card-body"> 
+                        <section class="d-flex justify-content-between">
+                          <div>
+                            <i class="bi bi-play-circle-fill card-icon"  ></i>
+                            <i  class="bi bi-plus-circle card-icon"></i>
+                          </div>
+                          <div>
+                            <i class="bi bi-arrow-down-circle card-icon"></i>
+                          </div>
+                        </section>
+                        <section class="d-flex align-items-center justify-content-between" >
+                           <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                             <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                          
+                          </section>
+                          <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                    </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/Doc. Juguetes.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/federal miniatura.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="./img/Miniaturas/miniatura felipe contreras.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                </section>
+              </div>
+              <div class="carousel-item">
+                <section class="d-flex">
+                  <div class="card">
+                    <img src="./img/Miniaturas/miniatura-choco pops.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/miniatura.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card">
+                    <img src="img/Miniaturas/miniatura_Angela Gaitan.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="netflix-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/miniaturaAdymart.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/MIniaturaComerciaJK.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/miniaturaMelanycortes.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                </section>
+              </div>
+              <div class="carousel-item">
+                <section class="d-flex ">
+                  <div class="card" >
+                    <img src="img/Miniaturas/miniaturaZharickalvarez.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/MINIAUTURA YOUTUBE.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/Screenshot_20240125-191905~2.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/Screenshot_20240125-191905~2.png" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="netflix-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/thumbnail.MisTesorosAd.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">97% match</p> 
+                           <span class="m-2 sena-card-text text-white">Limited Series</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                  <div class="card" >
+                    <img src="img/Miniaturas/thumbnailYoutubeConceptChattyPelucass.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"> 
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill card-icon"  ></i>
+                          <i  class="bi bi-plus-circle card-icon"></i>
+                        </div>
+                        <div>
+                          <i class="bi bi-arrow-down-circle card-icon"></i>
+                        </div>
+                      </section>
+                      <section class="d-flex align-items-center justify-content-between" >
+                         <p class="sena-card-text m-0" style="color: rgb(0, 186, 0);">91% match</p> 
+                           <span class="m-2 sena-card-text text-white">Series Limitadas</span> <span class="border sena-card-text p-1 text-white">HD</span>
+                        
+                        </section>
+                        <span class="sena-card-text text-white">Provocative • Psychological • Thriller</span>
+                  </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previas</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- sliders-end -->
+
+
+      <!-- footer  -->
+      <div class="container footer">
+          <div class="row">
+            <div class="col-md-10 mx-auto">
+                <div class="row">
+                  <div class="col-md-3">
+                        <ul>
+                          <li>Audio & Subtitulos</li>
+                          <li>Videos</li>
+                          <li>Privacidad</li>
+                          <li>Contactanos</li>
+                        </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <ul>
+                      <li>Descripcion de Audio</li>
+                      <li>Terminos & Condiciones</li>
+                      <li>Noticias</li>
+                    </ul>
+              </div>
+              <div class="col-md-3">
+                <ul>
+                  <li>Ayuda</li>
+            
+                </ul>
+               </div>
+               <div class="col-md-3">
+                <ul>
+                  <li>Tarjeta de regalo</li>
+                  <li>Subscripción</li>
+            
+                </ul>
+               </div>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-10 mx-auto">
+              <div class="row">
+               
+                <div class="col">
+                  <p class="copy-right">@sena+ copyright</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+
+    <script src="./javaScript.js"></script>
+  </body>
+</html>
